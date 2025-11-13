@@ -103,7 +103,7 @@ class ScrollingExample extends StatelessWidget {
         ),
         SliverGrid(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
+            crossAxisCount: 2,
           ),
           delegate: SliverChildBuilderDelegate(
             (context, index) => Container(
